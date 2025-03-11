@@ -1,0 +1,33 @@
+# Project
+RFID
+1.Each passenger is provided with an RFID tag that stores their personal information, such as name and contact number.
+2.The RFID tag is linked to a passenger's account or wallet, so the fare is automatically deducted when they board the transport system.
+RFID Reader:
+
+Installed at entry/exit points of the transport system, the RFID reader scans the tag when a passenger boards or alights.
+The RFID reader communicates with the microcontroller to process the information and compute the distance traveled.
+Microcontroller:
+
+This is the heart of the system, managing data between the RFID reader, the passenger's RFID tag, and the fare system.
+The microcontroller ensures that the fare is calculated correctly based on the distance traveled and stores transaction information securely.
+Fare Calculation:
+
+Based on the information received from the RFID reader, the system computes the fare automatically based on the passenger's destination.
+It deducts the fare from the passenger's account or linked digital wallet.
+Ticketing:
+
+Once the fare is deducted, a ticket is issued, containing details like the source, destination, and fare. This ticket can be displayed on the passenger's mobile phone.
+The GSM modem is used to send the ticket details to the passenger's mobile phone via SMS or app notification.
+GSM Modem:
+
+The GSM modem communicates with the passenger’s mobile phone, sending the ticket or fare receipt to them in real-time.
+It can also send alerts about balance, upcoming stops, or other important notifications.
+
+
+Benefits of the System:
+1).Automated Fare Collection: The system automates fare deduction based on distance, eliminating the need for manual ticketing and reducing human error.
+2).Efficiency: It improves the efficiency of the transportation system by speeding up boarding times and reducing queues at ticket counters.
+3).Passenger Convenience: Passengers no longer need to carry physical tickets. Instead, their tickets are automatically generated and sent to their mobile devices.
+4).Improved Revenue Management: Governments or transport operators can ensure that the correct fare is collected, reducing the chances of fraud and fare evasion.
+5).Real-time Tracking: With RFID and GSM, the system can track passengers and vehicles in real-time, providing data for operational optimization.
+6).Security: The system can be programmed to ensure the data is secure and only authorized passengers are allowed to travel.
